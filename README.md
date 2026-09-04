@@ -221,18 +221,6 @@ python -m insar_timeseries --input-source detrending
 
 Tests verify recovery of a known quadratic trend, retention of a localized deformation signal, and preservation of water/invalid `NaN` pixels.
 
-## Upload to GitHub
-
-```powershell
-git init
-git add .
-git commit -m "Initial release: robust InSAR detrending"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/insar-detrending.git
-git push -u origin main
-```
-
-Input/output rasters, NumPy products, caches, and virtual environments are excluded through `.gitignore`.
 
 ## License
 
